@@ -1,0 +1,22 @@
+<html>
+<body background= "./img/govt.jpg" style="margin:15% auto 15% auto;">
+<script type="text/javascript">
+    function getMap()
+    {
+	var mapOptions = {disableDefaultUI: true};
+        window.location='https://maps.google.com?q='+document.getElementById('textBox').value+' Office' ;
+    }
+   
+</script>
+
+<div style ="text-align: center;">
+<li><a href="./afterofc.html"> <font color="Black">See Govt. Office</font></a></li>
+
+ <div class="searchBox" style ="text-align: center;">
+  <input id="textBox" type="text" placeholder="Search..">
+<br>
+<br>
+  <input type="submit" value="Search" onclick=getMap()>
+</div> 
+</body>
+</html>
