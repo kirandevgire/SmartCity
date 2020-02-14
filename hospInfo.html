@@ -1,0 +1,21 @@
+<html>
+<body background= "./img/Hospital.jpg" style="margin:15% auto 15% auto;">
+<script type="text/javascript">
+    function getMap()
+    {
+	var mapOptions = {disableDefaultUI: true};
+        window.location='https://maps.google.com?q='+document.getElementById('textBox').value+' hospitals' ;
+    }
+   
+</script>
+<div style ="text-align: center;">
+<li><a href="./afterhospital.html"> <font color="Black">See Hospitals</font></a></li>
+
+ <div class="searchBox" style ="text-align: center;">
+  <input id="textBox" type="text" placeholder="Search..">
+<br>
+<br>
+  <input type="submit" value="Search" onclick=getMap()>
+</div> 
+</body>
+</html>

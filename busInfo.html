@@ -1,0 +1,26 @@
+<html>
+<body background= "./img/pmt.png" style="margin:15% auto 15% auto;">
+
+<script type="text/javascript">
+    function getMap()
+    {
+	var mapOptions = {disableDefaultUI: true};
+        window.location='https://maps.google.com?q='+document.getElementById('textBox').value+' bus' ;
+    }
+   
+</script>
+
+<form style ="text-align: center;">
+  
+  <input id="textBox" type="text" placeholder="From..">
+  <br>
+  <br> 
+  <input id="textBox" type="text" placeholder="To..">
+  <br><br>
+  <input  type="submit" value="Search"  onclick=getMap()>
+</form> 
+
+</body>
+</html>
+
+
